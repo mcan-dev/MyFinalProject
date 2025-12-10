@@ -1,0 +1,1 @@
+Bu repo, Engin Demiroğ tarafından verilen .NET & Angular kampının kaynak kodlarını içerir. Kamp süresince N-Tier Architecture, Entity Framework Core, IoC , AOP ve JWT Authentication yapıları kurumsal standartlarda kodlanmıştır."
