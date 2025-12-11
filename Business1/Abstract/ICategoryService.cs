@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Core.DataAccess;
 using Entities.Concrete;
 
-namespace DataAccess1.Abstract
+namespace Business1.Abstract
 {
-    public interface ICustomerDal: IEntityRepository<Customer>
+    public interface ICategoryService
     {
-
+        List<Category> GetAll();
+        Category GetById(int categoryId);
     }
 }

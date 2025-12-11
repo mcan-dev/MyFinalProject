@@ -1,7 +1,8 @@
-﻿using DataAccess1.Abstract;
-using Entities.Concrete;
-using System.Linq;
+﻿using System.Linq;
 using System.Linq.Expressions;
+using DataAccess1.Abstract;
+using Entities.Concrete;
+using Entities.DTOs;
 
 namespace DataAccess1.Concrete.InMemory
 {
@@ -65,6 +66,10 @@ namespace DataAccess1.Concrete.InMemory
                 productToUpdate.UnitPrice = product.UnitPrice;
                 productToUpdate.UnitsInStock = product.UnitsInStock;
             }
+        }
+        public List<ProductDetailDto> GetProductDetails()
+        {
+            throw new NotImplementedException();
         }
     }
 }
